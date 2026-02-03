@@ -1,0 +1,7 @@
+{
+  "name": "Zoli L'Alfabet Morisien",
+  "description": "An interactive alphabet learning app for Grade 1 & 2 students in Mauritius, featuring local words like Anana, Dodo, and Sega.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

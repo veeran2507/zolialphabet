@@ -1,0 +1,31 @@
+
+import { LetterItem } from './types';
+
+export const ALPHABET_DATA: LetterItem[] = [
+  { letter: 'A', word: 'Anana', translation: 'Pineapple', description: 'Enn bon fri so so ki nou gagne Maurice.', imagePath: 'https://images.unsplash.com/photo-1550258114-b834e70e9be1?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'B', word: 'Banann', translation: 'Banana', description: 'Ena boukou kalite banann dan nou pei.', imagePath: 'https://images.unsplash.com/photo-1571771894821-ad9961135b46?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+  { letter: 'C', word: 'Chamarel', translation: 'Seven Colored Earths', description: 'Enn zoli plas kot later ena set kouler.', imagePath: 'https://images.unsplash.com/photo-1621360061521-4d373f7796f6?w=400&h=400&fit=crop', color: 'bg-yellow-400' },
+  { letter: 'D', word: 'Dodo', translation: 'Dodo Bird', description: 'Zwar ki ti pe viv zis Maurice lontan.', imagePath: 'https://images.unsplash.com/photo-1625937286074-9ca519d5d9df?w=400&h=400&fit=crop', color: 'bg-green-400' },
+  { letter: 'E', word: 'Etwal de Mer', translation: 'Starfish', description: 'Nou gagne sa dan nou lagon bleu.', imagePath: 'https://images.unsplash.com/photo-1544265851-5853101963e5?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'F', word: 'Flambwayan', translation: 'Flamboyant Tree', description: 'Zoli pie rouz ki fleri an desam.', imagePath: 'https://images.unsplash.com/photo-1605333396915-47ed6b68a00e?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+  { letter: 'G', word: 'Goyav de Sin', translation: 'Chinese Guava', description: 'Ti fri rouz ki nou ramase dan bwa.', imagePath: 'https://images.unsplash.com/photo-1628045479013-17b8f192b00f?w=400&h=400&fit=crop', color: 'bg-yellow-400' },
+  { letter: 'H', word: 'Heron', translation: 'Heron', description: 'Enn gran zwazo ki kontan lapes dan delo.', imagePath: 'https://images.unsplash.com/photo-1539615591740-1555127f8a7c?w=400&h=400&fit=crop', color: 'bg-green-400' },
+  { letter: 'I', word: 'Ile Maurice', translation: 'Mauritius Island', description: 'Nou zoli ti zil dan Losean Indien.', imagePath: 'https://images.unsplash.com/photo-1543731068-7e0f5beff43a?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'J', word: 'Jardin Pamplemousses', translation: 'Botanic Garden', description: 'Enn vye zardin avek boukou pie dibwa.', imagePath: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+  { letter: 'K', word: 'Kresal', translation: 'Kestrel', description: 'Enn zwazo Maurice ki ti pros pou disparet.', imagePath: 'https://images.unsplash.com/photo-1526438422718-47e127391307?w=400&h=400&fit=crop', color: 'bg-yellow-400' },
+  { letter: 'L', word: 'Lezar', translation: 'Lizard', description: 'Ti zanimo ki kontan mars lor miray.', imagePath: 'https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=400&h=400&fit=crop', color: 'bg-green-400' },
+  { letter: 'M', word: 'Marlin', translation: 'Marlin', description: 'Enn gro pwason ki sote dan lamer.', imagePath: 'https://images.unsplash.com/photo-1559705421-4ae9bf6fabb5?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'N', word: 'Nik', translation: 'Nest', description: 'Kot bann ti zwazo dormi.', imagePath: 'https://images.unsplash.com/photo-1512404044552-875f7396a84d?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+  { letter: 'O', word: 'Ourit', translation: 'Octopus', description: 'Nou manze sa dan enn bon salad.', imagePath: 'https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?w=400&h=400&fit=crop', color: 'bg-yellow-400' },
+  { letter: 'P', word: 'Piment', translation: 'Chili', description: 'Fasinn! Li pike sa!', imagePath: 'https://images.unsplash.com/photo-1590779033100-9f60705a013d?w=400&h=400&fit=crop', color: 'bg-green-400' },
+  { letter: 'Q', word: 'Quatre Bornes', translation: 'Town of Flowers', description: 'Enn lavil kot ena enn gran bazar.', imagePath: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'R', word: 'Ravann', translation: 'Traditional Drum', description: 'Nou servi sa pou zwe Sega.', imagePath: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+  { letter: 'S', word: 'Sega', translation: 'National Dance', description: 'Nou lamizik e nou ladans nasional.', imagePath: 'https://images.unsplash.com/photo-1514525253344-99a42999d226?w=400&h=400&fit=crop', color: 'bg-yellow-400' },
+  { letter: 'T', word: 'Torti', translation: 'Turtle', description: 'Nou ena gro torti dan vye gran-port.', imagePath: 'https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=400&h=400&fit=crop', color: 'bg-green-400' },
+  { letter: 'U', word: 'Usine', translation: 'Sugar Mill', description: 'Lontan ti ena boukou usine disik.', imagePath: 'https://images.unsplash.com/photo-1563200155-22a466185836?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'V', word: 'Vakoa', description: 'Pie ki servi pou fer sak bwat.', translation: 'Pandanus', imagePath: 'https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+  { letter: 'W', word: 'Wagon', translation: 'Train Wagon', description: 'Ti pe sarye kann lontan lor ray.', imagePath: 'https://images.unsplash.com/photo-1515165597738-9844583b9bb9?w=400&h=400&fit=crop', color: 'bg-yellow-400' },
+  { letter: 'X', word: 'Xylophone', translation: 'Xylophone', description: 'Enn linstriman pou fer zoli mizik.', imagePath: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400&h=400&fit=crop', color: 'bg-green-400' },
+  { letter: 'Y', word: 'Yacht', translation: 'Boat', description: 'Zoli bato kot Grand Baie.', imagePath: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400&h=400&fit=crop', color: 'bg-red-400' },
+  { letter: 'Z', word: 'Zako', translation: 'Monkey', description: 'Li kontan sote lor pie dibwa.', imagePath: 'https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=400&h=400&fit=crop', color: 'bg-blue-400' },
+];
